@@ -1,0 +1,10 @@
+<%= form_for(@libro) do |f| %>
+
+  <div class="field">
+    <%= f.label :calificacion %><br />
+    <%= f.number_field :calificacion %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
